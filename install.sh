@@ -19,8 +19,9 @@ fi
 cd ~
 
 echo "Installing python3-pip and docker."
-sudo apt update
-sudo apt install -y python3-pip docker.io
+apt install sudo -y
+apt update
+apt install -y python3-pip docker.io
 echo Installed successfully
 
 echo "Writing Dockerfile..."
